@@ -1,0 +1,142 @@
+body {
+      font-family: "Roboto Mono", monospace;
+      text-align: center;
+      background-image: url("https://img.freepik.com/foto-gratis/collage-fondo-pelicula_23-2149876009.jpg");
+      background-color: #000000;
+      background-size: cover;
+      background-position: center top;
+      margin: 0; /* Eliminar margen predeterminado del cuerpo */
+    }
+
+.contenido {
+    padding: 20px;
+}
+
+.resaltado {
+    color: red; /* Cambia el color del texto "WZFiw83hWb8?si=joJiQloFAYpu2NTC" */
+}
+
+    .container {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .page-title {
+      color: #ffffff;
+      margin: 0 0 5px;
+    }
+
+    .page-subtitle {
+      color: #ffffff;
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+
+    .page-logo {
+      width: 200px;
+    }
+
+    .alura-logo {
+      width: 40px;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+
+    #listaPeliculas img {
+  margin: 10px;
+  max-height: 200px;
+  max-width:200px;
+}
+
+    #listaPeliculas img:hover {
+      transform: scale(1.2);
+    }
+
+    .form-wrapper {
+      margin: 0 0 15px;
+    }
+
+    .form-wrapper input {
+  display: block;
+  margin: 10px auto; /* Espaciado entre los inputs y centrado horizontal */
+  padding: 10px; /* Aumento del espacio interno */
+width: 30%;
+  border: 2px solid #01B869; /* Añadir un borde */
+  border-radius: 5px; /* Borde redondeado */
+  outline: none; /* Eliminar el resaltado al hacer clic */
+  color: black;
+}
+
+.form-wrapper input::placeholder {
+  color: grey; /* Color del texto de marcador de posición */
+}
+
+.form-wrapper input:focus {
+  border-color: #19d503; /* Cambiar el color del borde al enfocar */
+}
+
+h4 {
+  color: #ffffff;
+  font-size: 13px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 40%;
+  margin: 0 auto; /* Esto centrará el elemento horizontalmente */
+  text-align: center; /* Esto centrará el texto dentro del elemento */
+  padding: 5px;
+  margin-top:5px;
+  margin-bottom: 15px;
+}
+
+    #mensajeDeError {
+      color: red;
+    }
+
+    .form-wrapper button {
+      border: 0;
+      color: #ffffff;
+      background: linear-gradient(45deg, #ff0505, #fe7c0a, #ffc41e, #ffe93d); /* Agregar un degradado al botón */
+      font-weight: bold;
+      padding: 15px 20px;
+      font-size: 16px;
+      border-radius: 4px;
+      margin-top: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9); /* Agregar una sombra al botón */
+}
+
+    .form-wrapper button:hover {
+      opacity: 0.8;
+    }
+
+/* Estilos para el nombre de la película */
+    #listaPeliculas p {
+      color: #ffffff; /* Cambiar color del texto a blanco */
+      font-weight: bold; /* Hacer el texto en negrita */
+      background-color: black;
+      max-width: 200px;
+      margin: 0 auto; /* Centrar horizontalmente */
+      margin-bottom: 15px;
+      padding:5px;
+      background: linear-gradient(45deg, #4208df, #3c1eff, #9c62e8, #c38aff); 
+}
+
+footer {
+  text-align: center;
+  font-family: sans-serif;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  margin-left: 0; /* Eliminar el margen izquierdo */
+  padding-left: 0; /* Eliminar el relleno izquierdo */
+}
+
+footer p {
+  margin: 0;
+  padding: 10px 0;
+  background-color: black;
+  color: #fff;
+  height: 30px;
+  font-size: 12px;
+}

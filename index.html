@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>AluraFlix</title>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      AluraFlix
+    </h1>
+    <img src="https://user-images.githubusercontent.com/121910576/257301160-11f2dba6-23f2-4a8a-8c14-10ca8825acc8.png" class="page-logo" alt="">
+    <h3 class="page-subtitle">
+      ¿Cuál es tu película favorita?
+    </h3>
+    <h4> Ingresar solo la ruta y consulta.<br> Ejemplo: https://youtu.be/<span class="resaltado">WZFiw83hWb8?si=joJiQloFAYpu2NTC</span> <br><br>Ingresar: <span class="resaltado">WZFiw83hWb8?si=joJiQloFAYpu2NTC</span></h4>
+    <div class="form-wrapper">
+      <input type="text" id="nombre" name="nombre" placeholder="Agregue el nombre de la película">
+      <input type="number" id="year" placeholder="Año">
+      <input type="text" id="pelicula" name="pelicula" placeholder="Ingrese la dirección de la imagen">
+      <input type="text" id="trailer" name="trailer" placeholder="Ingrese la dirección del tráiler">
+      <p id="mensajeDeError"></p>
+      <button onclick="agregarPelicula()">Añadir Película</button>
+    </div>
+  </div>
+  <div id="listaPeliculas"></div>
+  <div class="form-wrapper">
+    <input type="text" id="nombreEliminar" name="nombreEliminar" placeholder="Nombre de película a eliminar">
+    <button onclick="eliminarPelicula()" style="margin-bottom: 60px;">Eliminar película</button>
+  </div>
+  <a href="https://www.aluracursos.com/" target="_blank">
+    <img src="https://www.aluracursos.com/assets/img/home/alura-logo.1686744883.svg" alt="" class="alura-logo">
+  </a>
+  <footer>
+    <p>Desarrollado por Flor María Labanda P. - 2024 <br>
+      #InmersionDevConJavascript</p>
+  </footer>
+<script src="./script.js"></script>
+  </body>
+</head>
+
+</html>
